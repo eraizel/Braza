@@ -79,7 +79,7 @@ function App() {
               <InstallButton pwaInstall={pwaInstall} />
             )}
             <h1 className="text-4xl font-bold uppercase tracking-wide text-center my-1 flex-auto">
-              Mun<span className="text-green-600">d</span>lo
+              <Worldle />
             </h1>
             <button
               className="ml-3 text-xl"

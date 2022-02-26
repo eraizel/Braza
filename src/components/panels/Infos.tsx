@@ -81,7 +81,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
         Volte amanhã para um novo Estado!
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
-        <Worldle /> foi <span className="font-bold">inpirado</span> em{" "}
+        <Worldle /> foi <span className="font-bold">inspirado</span> em{" "}
         <a
           className="underline"
           href="https://mundlo.vercel.app/"

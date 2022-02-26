@@ -49,7 +49,7 @@ export function Share({
     const bestPercent = `(${computeProximityPercent(
       bestDistance
     ).toString()}%)`;
-    const title = `#Mundlo #${dayCount} ${guessCount}/6 ${bestPercent}${difficultyModifierEmoji}`;
+    const title = `#Braza #${dayCount} ${guessCount}/6 ${bestPercent}${difficultyModifierEmoji}`;
 
     const guessString = guesses
       .map((guess) => {
@@ -60,7 +60,7 @@ export function Share({
       })
       .join("\n");
 
-    return [title, guessString, "https://mundlo.vercel.app/"].join("\n");
+    return [title, guessString, "https://braza.vercel.app/"].join("\n");
   }, [dayString, guesses, hideImageMode, rotationMode, theme]);
 
   return (

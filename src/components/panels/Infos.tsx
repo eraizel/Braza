@@ -18,7 +18,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
         <div>
           Descubra em que parte do <Worldle /> nós estamos em 6 tentativas.
         </div>
-        <div>Cada tentativa precisa ser um país válido...</div>
+        <div>Cada tentativa precisa ser um Estado válido...</div>
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
         <div className="font-bold">Exemplos</div>
@@ -27,7 +27,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             rowCount={1}
             guesses={[
               {
-                name: "Chile",
+                name: "Paraná",
                 direction: "NE",
                 distance: 13_557_000,
               },
@@ -35,7 +35,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             settingsData={settingsData}
           />
           <div className="my-2">
-            O <span className="uppercase font-bold">Chile</span> está{" "}
+            O <span className="uppercase font-bold">Paraná</span> está{" "}
             {formatDistance(13557000, settingsData.distanceUnit)} de distância.
             A resposta correta está mais ao Noroeste.
           </div>
@@ -45,7 +45,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             rowCount={1}
             guesses={[
               {
-                name: "Finlândia",
+                name: "Minas Gerais",
                 direction: "SE",
                 distance: 3_206_000,
               },
@@ -54,7 +54,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           />
           <div className="my-2">
             Sua segunda tentativa{" "}
-            <span className="uppercase font-bold">Finlândia</span> está mais
+            <span className="uppercase font-bold">Minas Gerais</span> está mais
             perto! {formatDistance(3206000, settingsData.distanceUnit)} de
             distância! a resposta correta está mais ao Sudoeste.
           </div>
@@ -64,7 +64,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             rowCount={1}
             guesses={[
               {
-                name: "Líbano",
+                name: "Rio de Janeiro",
                 direction: "N",
                 distance: 0,
               },
@@ -72,37 +72,28 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             settingsData={settingsData}
           />
           <div className="my-2">
-            O <span className="uppercase font-bold">Líbano </span>
+            O <span className="uppercase font-bold">Rio de Janeiro </span>
             está correto! Parabéns! 🎉
           </div>
         </div>
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3 font-bold">
-        Volte amanhã para um novo país!
+        Volte amanhã para um novo Estado!
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
-        <Worldle /> foi <span className="font-bold">inpirado</span> por{" "}
+        <Worldle /> foi <span className="font-bold">inpirado</span> em{" "}
         <a
           className="underline"
-          href="https://www.powerlanguage.co.uk/wordle/"
+          href="https://mundlo.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Wordle
+          Mundlo
         </a>{" "}
       </div>
       <div className="space-y-3 text-justify pb-3">
         <div>
           Feito por{" "}
-          <a
-            className="underline"
-            href="https://twitter.com/teuteuf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            @teuteuf{" "}
-          </a>
-          e traduzido por{" "}
           <a
             className="underline"
             href="https://twitter.com/eraizel"

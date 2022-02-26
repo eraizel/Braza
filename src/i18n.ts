@@ -5,7 +5,7 @@ import { initReactI18next } from "react-i18next";
 const resources = {
   en: {
     translation: {
-      placeholder: "País ou Território",
+      placeholder: "Estado ou Território",
       guess: "Adivinhe",
       share: "Compartilhe",
       showOnGoogleMaps: "👀 veja no Google maps",
@@ -33,9 +33,9 @@ const resources = {
         guessDistribution: "Média de Acertos",
       },
       install: {
-        title: "Mundlo",
+        title: "Braza",
         descritpionTitle: "Instalar app:",
-        description: "Adicionar o Mundlo aos apps",
+        description: "Adicionar o Braza aos apps",
         instructionTitle: "Instruções:",
         instructionActionOk: "OK",
         instructionActionCancel: "Cancelar",
